@@ -14,7 +14,7 @@ const fillSubject = (subject) => {
   document.querySelector('.email__subject').textContent = subject;
 };
 
-const fillBody = (body, name, goodbyeFunction, goodbye, rudeGoodbye, formalGoodbye) => {
+const fillBody = (body, name, goodbyeFunction) => {
   const bodyElm = document.querySelector('.email__body');
   bodyElm.innerHTML += body;
   const closingElm = document.querySelector('.email__closing');
